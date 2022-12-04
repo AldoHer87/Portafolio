@@ -17,6 +17,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--darkblue);
     padding-bottom: 10rem 5rem 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .header-content{
@@ -42,6 +47,7 @@ body{
     text-align: center;
     padding: 1rem 1.5rem;
     position: relative;
+    max-width: 600px;
 }
 
 .circle{
@@ -54,7 +60,7 @@ body{
 }
 
 .profile-photo{
-    height: 100%;
+    height: 105%;
     width: 100%;
     
 }
@@ -132,6 +138,8 @@ body{
 .text-about{
     color: var(--gray);
     font-size: 16px;
+    width: 100%;
+    max-width: 600px;
 }
 
 .text-about > p{
@@ -151,7 +159,7 @@ body{
     gap: 1rem;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 400%;
+    max-width: 600px;
     padding: 1rem 2rem 0rem 4rem;
     border-radius: 1rem;
     /* overflow: hidden; */
@@ -203,6 +211,8 @@ body{
     justify-content: center;
     text-align: center;
     padding: 2rem;
+    width: 100%;
+    max-width: 600px;
 }
 
 .hability-tittle{
@@ -229,6 +239,8 @@ body{
 
 .carousel-slide{
     gap: 1rem;
+    width: 100%;
+    max-width: 600px;
 }
 
 .portafolio-tittle{
@@ -239,14 +251,6 @@ body{
     /* overflow: visible; */
 }
 
-.portafolio-container{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    overflow: scroll;
-}
 .img-container{
     align-items: center;
     justify-content: center;
