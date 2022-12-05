@@ -29,14 +29,17 @@ body{
 }
 
 .navbar{
+    width: 100%;
     padding: 1rem 1.5rem;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
+    text-align: end;
 }
 
 .navbar-menu path{
     stroke: white
+    
 }
 
 .header-information{
@@ -101,7 +104,6 @@ body{
     gap: 1rem;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 400%;
     padding: 1rem 3rem;
     border-radius: 1rem;
 }
@@ -319,7 +321,69 @@ body{
     font-size: 10px;
 }
 
+@media screen and ( min-width: 601px){   
+    body{
+        position: relative;
+    }
+    .header-information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        position: relative;
 
+    }
+
+    .circle{
+        position: absolute;
+        left: 250px;
+        width: 60%;
+        height: 60%;
+        top: 39px;
+    }
+
+    .header-text{
+        text-align: left;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        right: 100px;
+        top: 10x;
+        gap
+    }
+
+    .header-text > h1{
+        font-size: 20px;
+    }
+
+    .header-text > h1 > span{
+        font-size: 20px;
+    }
+
+    .header-text > h2 {
+        font-size: 20px;
+    }
+
+    .header-text > h3{
+        font-size: 20px;
+    }
+
+
+    .social-container{
+        position: relative;
+        left: -112px;
+        width: 50%;
+    }
+
+    .work-container{
+        position: relative;
+        display: flex;
+        width: 80vh;
+        justify-content: space-evenly;
+    }
+}
 
 /* display: inline-flex;
 text-align: center;
