@@ -34,10 +34,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    text-align: end;
-    position: fixed;
-    left: 0;
-    top: 0;
+    text-align: end;  
 }
 
 .navbar-menu path{
@@ -409,10 +406,7 @@ body{
         align-items: center;
         
     }
-    .contact-container{
-        display: inline-block;
-        flex-direction: row;
-    }
+
     .contact-container > h2{
         display: flex;
         text-align: center;
