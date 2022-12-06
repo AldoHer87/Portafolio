@@ -108,7 +108,7 @@ body{
     border-radius: 1rem;
 }
 
-.work-circle{
+.work-square{
     background-color: var(--gray);
     width: 6rem;
     height: 4rem;
@@ -214,7 +214,7 @@ body{
     text-align: center;
     padding: 2rem;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .hability-tittle{
@@ -351,7 +351,6 @@ body{
         position: relative;
         right: 100px;
         top: 10x;
-        gap
     }
 
     .header-text > h1{
@@ -373,7 +372,7 @@ body{
 
     .social-container{
         position: relative;
-        left: -112px;
+        left: -130px;
         width: 50%;
     }
 
@@ -382,6 +381,34 @@ body{
         display: flex;
         width: 80vh;
         justify-content: space-evenly;
+    }
+
+    .services-container {
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        border-radius: 1rem;
+    }
+    .services-scroll{
+        gap: 2rem;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+        overflow: inherit
+    }
+
+    .contact-container{
+        display: flex;
+        
+    }
+    .contact-container{
+        display: inline-flex;
+        flex-direction: row;
+    }
+    .contact-container > h2{
+        display: inline-block;
     }
 }
 
