@@ -35,6 +35,9 @@ body{
     justify-content: flex-end;
     align-items: flex-end;
     text-align: end;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .navbar-menu path{
@@ -401,14 +404,27 @@ body{
 
     .contact-container{
         display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
         
     }
     .contact-container{
-        display: inline-flex;
+        display: inline-block;
         flex-direction: row;
     }
     .contact-container > h2{
-        display: inline-block;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-box{
+        display: flex;
+        flex-direction: row;
+        max-width: 990px;
+        gap: 3rem;
     }
 }
 
